@@ -34,6 +34,9 @@ FROM Products
 WHERE units_in_stock = 0;
 
 8.
+SELECT AVG(unit_price)
+FROM Products
+
 9.
 10.
 11.
