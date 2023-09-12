@@ -88,6 +88,10 @@ SELECT MAX(unit_price) AS HighestPrice,
 FROM PRoducts;
 
 19.
+SELECT order_id
+FROM Orders
+where order_date >= '05-05-1997';
+
 20.
 21.
 22.
