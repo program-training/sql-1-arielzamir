@@ -29,6 +29,10 @@ FROM Employees
 where birth_date < '1960-01-01';
 
 7.
+SELECT product_id, units_in_stock
+FROM Products
+WHERE units_in_stock = 0;
+
 8.
 9.
 10.
