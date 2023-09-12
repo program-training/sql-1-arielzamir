@@ -62,6 +62,11 @@ FROM Customers
 WHERE contact_title IN ('Owner', 'CEO');
 
 14.
+SELECT product_id
+FROM Products
+ORDER BY unit_price DESC
+LIMIT 1;
+
 15.
 16.
 17.
