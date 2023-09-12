@@ -93,5 +93,8 @@ FROM Orders
 where order_date >= '05-05-1997';
 
 20.
+SELECT product_id, quantity_per_unit
+FROM Products
+
 21.
 22.
