@@ -18,7 +18,16 @@ FROM Orders
 GROUP BY customer_id;
 
 5.
+SELECT product_id, product_name, unit_price
+FROM Products
+ORDER BY unit_price DESC
+LIMIT 5;
+
 6.
+SELECt first_name, last_name, birth_date
+FROM Employees
+where birth_date < '1960-01-01';
+
 7.
 8.
 9.
