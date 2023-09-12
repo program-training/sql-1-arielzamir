@@ -9,6 +9,9 @@ SELECT * FROM Customers
 WHERE country = 'Germany';
 
 3.
+SELECT * FROM Orders
+WHERE customer_id = 'ALFKI';
+
 4.
 5.
 6.
