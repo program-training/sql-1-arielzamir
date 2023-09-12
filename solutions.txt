@@ -72,6 +72,10 @@ SELECT AVG(EXTRACT(YEAR FROM age(CURRENT_DATE, birth_date)))
 FROM Employees;
 
 16.
+SELECT customer_id 
+FROM Customers
+WHERE phone  LIKE '%123%';
+
 17.
 18.
 19.
