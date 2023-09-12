@@ -97,4 +97,8 @@ SELECT product_id, quantity_per_unit
 FROM Products
 
 21.
+SELECT product_id, product_name, unit_price
+FROM Products
+WHERE unit_price > (SELECT AVG(unit_price) FROM Products);
+
 22.
