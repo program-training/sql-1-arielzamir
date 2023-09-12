@@ -43,6 +43,9 @@ FROM order_details
 WHERE product_id = 7;
 
 10.
+SELECT COUNT(DISTINCT category_id)
+FROM Products;
+
 11.
 12.
 13.
