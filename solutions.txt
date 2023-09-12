@@ -102,3 +102,6 @@ FROM Products
 WHERE unit_price > (SELECT AVG(unit_price) FROM Products);
 
 22.
+SELECT city, COUNT(employee_id)
+FROM Employees
+GROUP BY city;
